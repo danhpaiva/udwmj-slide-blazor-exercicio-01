@@ -1,0 +1,6 @@
+<input @bind="nome" placeholder="Digite seu nome" @bind:event="oninput" />
+<p>Olá, @nome!</p>
+
+@code {
+    private string nome = string.Empty;
+}

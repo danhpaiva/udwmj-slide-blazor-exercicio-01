@@ -1,0 +1,12 @@
+<div class="cartao">
+    <h4>@Titulo</h4>
+    <p>@Descricao</p>
+</div>
+
+@code {
+    [Parameter]
+    public string Titulo { get; set; } = "Sem título";
+
+    [Parameter]
+    public string Descricao { get; set; } = "Sem descrição";
+}
